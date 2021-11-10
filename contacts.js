@@ -1,11 +1,8 @@
 const fs = require('fs/promises');
 const path = require('path');
 const crypto = require('crypto');
-// contacts.js
 
-/*
- * Раскомментируй и запиши значение
-*/
+
 const contactsPath = path.join(__dirname, 'db/contacts.json');
  
 const readData = async () => {
@@ -13,7 +10,6 @@ const readData = async () => {
     return JSON.parse(result);
 }
 
-// TODO: задокументировать каждую функцию
 const listContacts = async() => {
     return await readData();
 }
