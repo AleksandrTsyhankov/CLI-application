@@ -1,0 +1,27 @@
+{
+  "name": "cli-application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AleksandrTsyhankov/CLI-application.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AleksandrTsyhankov/CLI-application/issues"
+  },
+  "homepage": "https://github.com/AleksandrTsyhankov/CLI-application#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "8.3.0",
+    "crypto-js": "^4.1.1"
+  }
+}
