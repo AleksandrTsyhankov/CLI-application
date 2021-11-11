@@ -4,5 +4,4 @@ const contactsArr = {
     removeContact: require('./controllers/contacts/removeContact'),
     addContact: require('./controllers/contacts/addContact'),
 }
-
 module.exports = contactsArr;
